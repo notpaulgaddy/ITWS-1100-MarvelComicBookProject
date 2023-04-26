@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML 5 Boilerplate</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/blueimp-md5/2.18.0/js/md5.min.js"></script>
+    <link rel="stylesheet" href="../../css/navbar.css">
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <header>
+      <h1 class="logo"><a href="#"> Marvel Comics </a></h1>
+      <nav class="navbar" id="navbar">
+      </nav>
+    </header>
+    <div class="container">
+        <img src="https://www.datocms-assets.com/39109/1658959526-gracie-abrams.jpg?auto=format%2Ccompress&cs=srgb" id="comicImg" alt="Comic Book" class="comic-image">
+        <div class="comic-details">
+          <h1 class="comic-title" id="comicTitle"></h1>
+          <p id="releaseDate"></p>
+          <p id="comicIsbn">This comic has no isbn number.</p>
+          <p id="comicPrice"></p>
+          <p id="amtOfPages"></p>
+          <div id="descriptionDiv">
+            <h3 style="padding-bottom: 0; margin-bottom: 0;">Description:</h3>
+            <p id="comicDesc">This comic has no description.</p>
+          </div>
+          <h2 id="addToFavs">Add to Favorites</h2>
+        </div>
+      </div>
+      <div style="margin: auto; width: 90%; height: 20px; border-bottom: 1px solid black; text-align: center">
+        <span style="font-size: 40px; background-color: white; padding: 0 10px;">
+          Comments
+        </span>
+      </div>
+      <div class="comments">
+        <div class="make-comments">
+          <div class="profile-pic"></div>
+          <input type="text" id="comment" placeholder="Leave a comment...">
+
+          <hr class="comment-separator">
+        </div>
+        <div class="other-comments" id="comments-list">
+          No other comments
+        </div>
+      </div>
+      <button id="postComm">Post Comment</button>
+      
+	<script src="index.js"></script>
+  <script src="favoritesXcomments.js" type="module"></script>
+  <script src="../../scripts/auth.js" type="module"></script>
+  </body>
+</html>

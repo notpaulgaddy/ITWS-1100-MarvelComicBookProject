@@ -1,0 +1,75 @@
+/* For general reusable styles */
+/* - FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98   
+
+-Font Weights:
+Default: 400
+
+-Line heights:
+Default: 1
+Small: 1.05
+Paragraph default: 1.6 
+
+ - SPACING SYSTEM (px)
+  2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* To get 10px from default browser 16px */
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  /* font-family: "Rubik", "Inter", sans-serif; */
+  font-family: sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #444;
+
+  /* only works if no asolute position in relation to body */
+  overflow-x: hidden;
+}
+
+.primary-heading {
+  font-size: 3.6rem;
+  font-weight: 400;
+  margin-bottom: 3.2rem;
+}
+
+.grid--2-cols {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.link:link,
+.link:visited {
+  color: #1864ab;
+  display: inline-block;
+  text-decoration: none;
+  border-bottom: 1.25px solid currentColor;
+  padding-bottom: 2px;
+
+  transition: all 0.3s;
+}
+
+.link:hover,
+.link:active {
+  color: #16548e;
+
+  /* border-bottom: 1.25px solid transparent; */
+}
+
+.margin-left-sm {
+  margin-left: 0.8rem;
+}
+
+.margin-left-md {
+  margin-left: 1.2rem;
+}

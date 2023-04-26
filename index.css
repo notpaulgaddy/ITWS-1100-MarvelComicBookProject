@@ -1,0 +1,46 @@
+.section-search {
+  /* background-image: url('https://i.etsystatic.com/13702629/r/il/067798/1979047720/il_fullxfull.1979047720_kthx.jpg'); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.comic-card {
+  /* border: 2px solid #333;
+  border-radius: 5px; */
+  margin-top: 60px;
+  padding: 1rem;
+}
+
+.section-search-result {
+  padding: 0 3.4rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+
+.comic-title {
+  font-weight: 600;
+}
+
+.comic-search-input {
+  padding: 0.5rem 1rem;
+}
+
+.background-image {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('https://i.etsystatic.com/13702629/r/il/067798/1979047720/il_fullxfull.1979047720_kthx.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 60vh;
+  }
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-image: none;
+  background-color: black;
+}

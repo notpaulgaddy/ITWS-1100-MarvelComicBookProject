@@ -1,0 +1,84 @@
+.container {
+    display: flex;
+    align-items: center;
+    width:80%;
+    margin: auto;
+    padding: 20px;
+  }
+  .comment {
+			display: flex;
+			align-items: flex-start;
+			margin-bottom: 20px;
+		}
+		.profile-pic {
+			width: 50px;
+			height: 50px;
+			border-radius: 50%;
+			margin-right: 10px;
+		}
+		.username {
+			font-weight: bold;
+			margin-bottom: 5px;
+		}
+		.comment-text {
+			font-size: 16px;
+		}
+  .comic-image {
+    width: 470px;
+    height: 661px;
+    margin-right: 40px;
+  }
+  
+  .comic-details {
+    height: 661px;
+  }
+  
+  .comic-title {
+    font-size: 28px;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+
+  #comicDesc {
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  .comic-details p, #desciptionDiv {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+hr {
+  width: 90%;
+}
+
+.comments {
+  width: 80%;
+  margin: 40px auto;
+}
+
+.comments textarea {
+  width: 100%;
+}
+
+.make-comments {
+  margin: 20px auto;
+}
+
+.other-comments {
+  margin: 20px auto;
+}
+
+.comment-separator {
+  width: 50%;
+  border-top: 1px solid #999;
+}
+
+  body {
+    padding: 0;
+    margin: 0;
+}
+
+
+  

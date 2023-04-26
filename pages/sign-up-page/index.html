@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="../../css/general.css" />
+    <link rel="stylesheet" href="../../css/styles.css" />
+  </head>
+  <body>
+    <main>
+      <div class="log-in grid--2-cols">
+        <div class="left-panel">
+          <h1 class="primary-heading">Sign Up</h1>
+          <form class="log-in-form" id="contactForm" action="#">
+            <div class="input-field">
+              <label for="email">Email</label>
+              <input
+                type="text"
+                name="email"
+                id="email"
+                placeholder="Enter your email"
+                required
+              />
+            </div>
+            <div class="input-field">
+              <label for="password">Password</label>
+              <input
+                type="text"
+                name="password"
+                id="password"
+                placeholder="Enter your password"
+                required
+              />
+            </div>
+            <div class="input-field">
+              <label for="verify-password">Verify New Password</label>
+              <input
+                type="text"
+                name="verify-password"
+                id="verify-password"
+                placeholder="Verify your password"
+                required
+              />
+            </div>
+            <button class="btn--form">Sign Up</button>
+            <div class="sign-up-field">
+              <span>Already have an account?</span>
+              <a class="link margin-left-sm" href="../log-in-page/index.html"
+                >Log In</a
+              >
+            </div>
+          </form>
+        </div>
+        <div class="right-panel"></div>
+      </div>
+    </main>
+    <script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-firestore.js"></script>
+    <script type="text/javascript" src="../../scripts/projectKey.js"></script>
+    <script type="text/javascript" src="../../scripts/signup.js"></script>
+    
+  </body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Marvel Comics Search</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/blueimp-md5/2.18.0/js/md5.min.js"></script>
+    <script src="./scripts/api.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/navbar.css" />
+    <link rel="stylesheet" type="text/css" href="index.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="logo"><a href="#"> Marvel Comics </a></h1>
+      <nav class="navbar" id="navbar">
+        <!-- <ul class="nav-list-authorized">
+          <li><a href="pages/collection-page/index.html" class="nav-link">Collection</a></li>
+          <li><a href="pages/settings-page/index.html" class="nav-link">Settings</a></li>
+        </ul>
+        <ul class="nav-list-unauthorized hidden">
+          <li><a href="pages/log-in-page/index.html" class="nav-link">Log In</a></li>
+          <li><a href="pages/sign-up-page/index.html" class="nav-link">Sign Up</a></li>
+        </ul> -->
+      </nav>
+    </header>
+    <main>
+      <section class="section-search background-image">
+        <h1 style="text-align: center;color:white;font-size: 70px; margin-top: 0; padding-top: 50px;">Comic Book Search</h1>
+        <h2 style="text-align: center;color:white;font-size: 40px;">Search for a comic book title</h2>
+        <div id="comic-search"></div>
+      </section>
+      <section class="section-search-result">
+        <!--  -->
+      </section>
+    </main>
+    <footer class="footer">
+      <!--  -->
+    </footer>
+    <script src="./scripts/comic-search.js"></script>
+    <script src="./scripts/auth.js" type="module"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
